@@ -1,3 +1,9 @@
+#ifndef __CHIP8DISASM_HPP__
+#define __CHIP8DISASM_HPP__
+
+#include <iostream>
+#include <cstring>
+#include <fstream>
 #include <cstdint>  // types
 
 #define OP_ADDR         (opcode & 0x0FFFu)
@@ -73,3 +79,5 @@ class Chip8Disasm
 		bool loadRom(const char* fileName);
 		void disasm();
 };
+
+#endif // __CHIP8DISASM_HPP__

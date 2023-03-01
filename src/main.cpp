@@ -1,5 +1,5 @@
 #include <iostream>
-#include "chip8disasm.cpp"
+#include "chip8disasm.hpp"
 
 int main(int argc, char const *argv[])
 {
