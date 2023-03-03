@@ -10,7 +10,7 @@
 
 Compile:
 ```
-g++ main.cpp -O3 -o cmd8-disasm.exe
+make
 ```
 
 Running:
